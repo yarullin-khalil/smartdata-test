@@ -1,0 +1,35 @@
+* {
+  background-color: hsl(206, 29%, 91%);
+}
+.circle {
+    margin: 50px;
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: hsl(172, 39%, 84%);
+    background-image: url('https://i.pinimg.com/736x/7d/dc/80/7ddc80249935b3bb72844a6a6d61af95.jpg');
+    border-radius: 50%;
+    opacity:0.6;
+  }
+
+.circle:hover {
+    opacity: 1;
+  }
+
+.ball {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 80px;
+    height: 80px;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, hsl(192, 57%, 56%), hsl(296, 57%, 72%));
+    border-radius: 50%;
+    transition: 0.15s;
+}
+
+.ball:hover {
+  background: red;
+}
+
+
